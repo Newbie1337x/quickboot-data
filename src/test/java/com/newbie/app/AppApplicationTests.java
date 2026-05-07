@@ -1,10 +1,10 @@
-package com.newbie.gym;
+package com.newbie.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GymApplicationTests {
+class AppApplicationTests {
 
 	@Test
 	void contextLoads() {
