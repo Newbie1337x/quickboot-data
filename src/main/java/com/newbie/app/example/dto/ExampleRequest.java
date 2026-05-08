@@ -1,8 +1,5 @@
 package com.newbie.app.example.dto;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
-
 /**
  * Request DTO for creating or fully updating an Example resource.
  *
@@ -16,11 +13,5 @@ import jakarta.validation.constraints.Size;
  */
 public record ExampleRequest(
 
-        @NotBlank(message = "Name is required")
-        @Size(max = 255, message = "Name must not exceed 255 characters")
-        String name,
-
-        @Size(max = 1000, message = "Description must not exceed 1000 characters")
-        String description
 ) {
 }

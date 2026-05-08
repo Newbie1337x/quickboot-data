@@ -27,12 +27,6 @@ public record ExampleResponse(
         @Schema(description = "Unique identifier", example = "1", accessMode = Schema.AccessMode.READ_ONLY)
         Long id,
 
-        @Schema(description = "Name of the example", example = "My Example")
-        String name,
-
-        @Schema(description = "Optional description", example = "A detailed description")
-        String description,
-
         @Schema(description = "User who created this record", example = "admin", accessMode = Schema.AccessMode.READ_ONLY)
         String createdBy,
 
